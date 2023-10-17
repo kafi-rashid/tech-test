@@ -1,0 +1,19 @@
+1. What is the difference between SOAP and REST?
+2. How many ways can you create a Thread in Java?
+3. What is the difference between Runnable and Callable
+4. What happens if you run a thread twice?
+5. What is the difference between run and start?
+4. what is Synchronisation?
+5. What is a collection in Java?
+6. What is the difference between HashMap and HashTable
+7. Explain in which situation can you use : HashMap,TreeMap,LinkedHashMap,HashSet
+8. What is a WebService
+9. Why do you use serialversionuid in a class?
+10. What is the difference between Interface and Class?
+11. What is the new feature of Java 8?
+12. Explain how can you use an API in your project
+13. What is Hibernate
+14. What is Qualifier in Spring
+15. What is a Bean in Spring and How can you create it?
+16. Difference between controller and RestController?
+17. Difference between PathVariable and getParameter
