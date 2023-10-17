@@ -6,9 +6,11 @@ JavaScript Questions
 
 What will be the output of the following Javascript code?
 
+```
 const prototype1 = {};  
 const object1 = Object.create(prototype1);  
 console.log(Object.getPrototypeOf(object1) === prototype1);
+```
 
 A. 0
 B. error
@@ -49,8 +51,10 @@ Answer: D
 
 What will be the output of the following Javascript code?
 
+```
 document.writeln("
 navigator.appVersion: "+navigator.appVersion);
+```
 
 A. Errror
 B. Browser language
@@ -78,8 +82,10 @@ Answer: B
 
 What will be the output of the following Javascript code?
 
+```
 document.writeln("
 screen.width: "+screen.width);
+```
 
 A. Error
 B. Browser area
@@ -94,6 +100,7 @@ Answer: C
 
 What will be the output of the following Javascript code?
 
+```
 <p id="demo"></p>
 <script>
 function myFunction() 
@@ -108,6 +115,7 @@ result='false';
 document.getElementById("demo").innerHTML = result;
 }
 </script>
+```
 
 A. undefined
 B. error
@@ -161,12 +169,14 @@ Answer: D
 
 What will be the output of the following Javascript code?
 
+```
 <p>The result of adding "5" + 2 + 3:</p>
 <p id="demo"></p>
 <script>
 x = "5" + 2 + 3;
 document.getElementById("demo").innerHTML = x;
 </script>
+```
 
 A. Error
 B. 5
@@ -285,10 +295,12 @@ Answer: D
 
 What will be the output of the following Javascript code?
 
+```
 <p id="demo"></p>
 <script>
 document.getElementById("demo").innerHTML = Number(true); 
 </script>
+```
 
 A. undefined
 B. true
@@ -329,12 +341,14 @@ Answer: B
 
 What will be the output of the following Javascript code?
 
+```
 <p id="demo"></p>
 <script>
 var carName = "Volvo";
 var carName;
 document.getElementById("demo").innerHTML = carName;
 </script>
+```
 
 A. Garbage value
 B. Volvo
@@ -349,6 +363,7 @@ Answer: B
 
 What will be the output of the following Javascript code?
 
+```
 <p id="demo"></p>
 <script>
 function myFunction() 
@@ -365,6 +380,7 @@ count++;
 document.getElementById("demo").innerHTML = count;
 }
 </script>
+```
 
 A. 0
 B. 1
@@ -460,14 +476,14 @@ Answer: D
 
 What will be the output of the following Javascript code?
 
-
+```
 <p id="demo2"></p>
 <script>
 Var arr = ["one", "two", "three",];
 arr.shift();
 document.getElementById("demo2").innerHTML = arr;
 </script>
-
+```
 
 A. error
 B. one three
@@ -495,6 +511,7 @@ Answer: C
 
 What will be the output of the following Javascript code?
 
+```
 function person()
 {  
 this.name = 'rahul';  
@@ -507,6 +524,7 @@ obj.call(this)
 obj.prototype = Object.create(person.prototype);  
 const app = new obj();  
 console.log(app.name);
+```
 
 A. rahul
 B. compilation error
@@ -575,7 +593,7 @@ Answer: C
 
 What will be the output of the following Javascript code?
 
-
+```
 <p id="demo">code</p>
 <script>
 function myFunction() 
@@ -584,6 +602,7 @@ var text = document.getElementById("demo").innerHTML;
 document.getElementById("demo").innerHTML = text.toUpperCase();
 }
 </script>
+```
 
 A. Error
 B. code
